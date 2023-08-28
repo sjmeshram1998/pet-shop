@@ -1,0 +1,109 @@
+/* .all-nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+  
+} */
+
+/* navbar  starts*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
+
+}
+.nav-list a {
+    padding: 1rem;
+
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: 500;
+}
+.nav-list a:hover {
+    background-color: #8bc34a;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 600;
+}
+.p-top {
+    padding-top: 12rem;
+}
+/* navbar ends */
+.bg
+{
+    background-image: url('../images/hero.jpg'); 
+    height: 90vh;
+    background-position: center;
+    background-size: cover; 
+}
+.bg-head{
+    padding-top: 5rem;
+}
+
+.con-space {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+/* about us starts */
+    .green-head {
+        color: #8bc34a;
+        
+    }
+   .greeting {
+    background-color: #dedede;
+    padding: 1.5rem;
+   }
+   .para {
+    font-size: 16px;
+   }
+   .left-green-border {
+    border-left: 6px solid #8bc34a;
+    padding-left: 2rem;
+
+   }
+/* about us ends */
+/* services */
+.btn-outline-success {
+color: #8bc34a !important;
+}
+/* card starts */
+.card-bg {
+    background-color: rgb(240, 240, 240);
+}
+
+/* card ends */
+/* media query */
+
+
+@media screen and (max-width:480px)
+{
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+       float: none;
+    }
+    .bg {
+        height: 100vh;  
+    }
+    .p-top {
+        padding-top: 0rem;
+    }
+    .ps {
+        padding-left: 0rem!important;
+
+    }
+    .logo {
+        font-size: 30px;
+    }
+}
